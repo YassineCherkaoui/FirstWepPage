@@ -6,7 +6,12 @@ margin-top: 50px;
     
 }
 h1{
-    background-color:red; text-align: center; text-emphasis: size after 20px;
+    background-color:red; text-align: center; text-emphasis: 50px;
+    background-image: url(giphy.gif);
+    background-repeat:repeat;
+    background-size: 400px;
+    
+
 
 }
 
@@ -46,7 +51,7 @@ head{
     background-color: #4CAF50;
     color: white;
   }
-* {box-sizing: border-box}
+ {box-sizing: border-box}
 
 
   input[type=text], input[type=password] {
@@ -85,32 +90,11 @@ button:hover {
 }
 
 
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
 
 
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
 
 
-.container {
-  padding: 16px;
-}
 
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
